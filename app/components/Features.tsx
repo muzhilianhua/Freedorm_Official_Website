@@ -129,7 +129,7 @@ const features = [
         image: "https://pic1.imgdb.cn/item/67a0a04dd0e0a243d4f9b99c.png",
       },
       {
-        title: "极限环境测试",
+        title: "极限环境测�������",
         description: "-20°C到50°C的极限环境测试，适应各种天气",
         image: "https://pic1.imgdb.cn/item/67a0a04dd0e0a243d4f9b99c.png",
       },
@@ -149,7 +149,7 @@ const features = [
   },
   {
     title: "限量发售，Now or Never",
-    description: "限时发售，抓住机会。",
+    description: "限时发售，抓限量机会。",
     image: "https://pic1.imgdb.cn/item/67a08c9dd0e0a243d4f9b75f.png",
     type: "single",
   },

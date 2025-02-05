@@ -25,17 +25,17 @@ export default function Header() {
           Freedorm-随心锁域
         </Link>
         <nav className="hidden md:flex items-center space-x-6">
-          <Link href="#features" className="text-gray-600 hover:text-primary transition-colors">
-            型号对比
-          </Link>
-          <Link href="#comparison" className="text-gray-600 hover:text-primary transition-colors">
+          <Link href="/installation#top" className="text-gray-600 hover:text-primary transition-colors">
             安装说明
           </Link>
-          <Link href="#" className="text-gray-600 hover:text-primary transition-colors">
+          <Link href="/aftersale#top" className="text-gray-600 hover:text-primary transition-colors">
             售后服务
           </Link>
-          <Link href="#" className="text-gray-600 hover:text-primary transition-colors">
+          <Link href="https://github.com/freedorm/" className="text-gray-600 hover:text-primary transition-colors">
             项目开源
+          </Link>
+          <Link href="/genius" className="text-gray-600 hover:text-primary transition-colors">
+            主创团队
           </Link>
           <a
             href="https://item.taobao.com/item.htm?ft=t&id=875000927536"
@@ -79,18 +79,25 @@ export default function Header() {
                 型号对比
               </Link>
               <Link
-                href="#comparison"
+                href="/installation#top"
                 className="py-2 text-gray-600 hover:text-primary transition-colors"
                 onClick={toggleMobileMenu}
               >
                 安装说明
               </Link>
               <Link
-                href="#"
+                href="/aftersale#top"
                 className="py-2 text-gray-600 hover:text-primary transition-colors"
                 onClick={toggleMobileMenu}
               >
                 售后服务
+              </Link>
+              <Link
+                href="/genius"
+                className="py-2 text-gray-600 hover:text-primary transition-colors"
+                onClick={toggleMobileMenu}
+              >
+                主创团队
               </Link>
               <Link
                 href="#"
