@@ -59,19 +59,29 @@ const features = [
     type: "carousel",
     items: [
       {
+        title: "闪耀黑",
+        description: "如黑珍珠般神秘的黑色，突显出低调奢华的品味",
+        image: "https://s1.locimg.com/2025/02/10/35719bb8767be.jpg",
+      },
+      {
+        title: "水晶紫",
+        description: "如水晶般剔透的紫色，彰显出高贵典雅的气质",
+        image: "https://s1.locimg.com/2025/02/10/46751a8427482.jpg",
+      },
+      {
         title: "流光蓝",
-        description: "如海洋般深邃的蓝色，散发出高贵典雅的气质",
-        image: "https://pic1.imgdb.cn/item/67a08c8cd0e0a243d4f9b759.png",
+        description: "如海洋般深邃的蓝色，散发出深邃澄澈的魅力",
+        image: "https://s1.locimg.com/2025/02/10/f1f8ff57e2004.jpg",
       },
       {
         title: "赤曜红",
-        description: "如火焰般热情的红色，展现出独特的个性魅力",
-        image: "https://pic1.imgdb.cn/item/67a08c8cd0e0a243d4f9b759.png",
+        description: "如火焰般热情的红色，展现出热烈独特的个性",
+        image: "https://s1.locimg.com/2025/02/10/ce3a699022b1e.jpg",
       },
       {
-        title: "墨玉黑",
-        description: "如黑珍珠般神秘的黑色，突显出低调奢华的品味",
-        image: "https://pic1.imgdb.cn/item/67a08c8cd0e0a243d4f9b759.png",
+        title: "大理石",
+        description: "如大理石般独特的纹理，凸显出浑厚深沉的气度",
+        image: "https://s1.locimg.com/2025/02/10/24ab532a29791.jpg",
       },
     ],
   },
