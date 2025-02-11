@@ -187,17 +187,29 @@ function FeatureCard({ feature, index }) {
   if (feature.type === "carousel") {
     return (
       <motion.div
-        ref={ref}
-        animate={controls}
-        initial="hidden"
-        variants={{
-          visible: { opacity: 1, y: 0 },
-          hidden: { opacity: 0, y: 50 },
-        }}
-        transition={{ duration: 0.5, delay: index * 0.1 }}
-      >
-        <CarouselCard items={feature.items} />
-      </motion.div>
+      ref={ref}
+      animate={controls}
+      initial="hidden"
+      variants={{
+        visible: { opacity: 1, y: 0 },
+        hidden: { opacity: 0, y: 50 },
+      }}
+      transition={{ duration: 0.5, delay: index * 0.1 }}
+    >
+      <div className="carousel-container">
+        {feature.items.map((item, itemIndex) => (
+          <div key={itemIndex} className="carousel-item">
+            <Image
+              src={item.image}
+              alt={item.title}
+              width={400}
+              height={400}
+              className="rounded-lg object-cover w-full h-full aspect-square"
+            />
+          </div>
+        ))}
+      </div>
+    </motion.div>
     )
   }
 
