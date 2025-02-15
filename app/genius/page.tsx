@@ -31,7 +31,7 @@ const teamMembers = [
     email: "example3@example.com",
   },
   {
-    name: "张子木",
+    name: "张子木Woody",
     role: "前端总监 & 微信小程序开发",
     image: "/placeholder.svg?height=400&width=400",
     description: "承担了小程序端的所有开发工作，是Freedorm微信小程序的核心技术力量。",
