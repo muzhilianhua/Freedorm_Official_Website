@@ -102,7 +102,7 @@ export default function InstallationGuide() {
             className="text-center mb-12"
           >
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">安装指南</h1>
-            <p className="text-xl text-gray-600">只需15分钟，6步轻松完成安装</p>
+            <p className="text-xl text-gray-600">只需15分钟，16步轻松完成安装</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

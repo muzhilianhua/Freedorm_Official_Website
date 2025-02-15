@@ -91,22 +91,22 @@ const features = [
       {
         title: "磨砂质感",
         description: "细腻柔和的触感，抗指纹污渍",
-        image: "https://pic1.imgdb.cn/item/67a09f61d0e0a243d4f9b984.jpg",
+        image: "https://s1.locimg.com/2025/02/11/123dc9e78924a.jpg",
       },
       {
         title: "镜面质感",
         description: "光亮如镜的表面，尽显高端品质",
-        image: "https://pic1.imgdb.cn/item/67a09f61d0e0a243d4f9b984.jpg",
+        image: "https://s1.locimg.com/2025/02/11/2a351a652a7be.jpg",
       },
       {
         title: "钻石纹理",
         description: "独特的菱形切割纹理，闪耀夺目",
-        image: "https://pic1.imgdb.cn/item/67a09f61d0e0a243d4f9b984.jpg",
+        image: "https://s1.locimg.com/2025/02/11/94023caff5f1b.jpg",
       },
       {
         title: "极光处理",
         description: "变幻莫测的光泽效果，如极光般绚丽",
-        image: "https://pic1.imgdb.cn/item/67a09f61d0e0a243d4f9b984.jpg",
+        image: "https://s1.locimg.com/2025/02/11/2bc4a2dc72e78.jpg",
       },
     ],
   },
@@ -116,12 +116,12 @@ const features = [
       {
         title: "高特汤姆轴",
         description: "静音顺滑，办公室使用首选",
-        image: "https://pic1.imgdb.cn/item/67a0a0acd0e0a243d4f9b9a9.jpg",
+        image: "https://s1.locimg.com/2025/02/11/806d21681c0ab.jpg",
       },
       {
         title: "高特海洋轴",
         description: "清脆爽快，完美触感反馈",
-        image: "https://pic1.imgdb.cn/item/67a0a0acd0e0a243d4f9b9a9.jpg",
+        image: "https://s1.locimg.com/2025/02/11/0b0c814668daf.jpg",
       },
     ],
   },
@@ -131,17 +131,17 @@ const features = [
       {
         title: "400天持久续航",
         description: "一年以上的持久续航，无需频繁更换电池",
-        image: "https://pic1.imgdb.cn/item/67a0a04dd0e0a243d4f9b99c.png",
+        image: "https://s1.locimg.com/2025/02/11/2906c76cd69c6.jpg",
       },
       {
         title: "10000次开门测试",
         description: "超过10000次的开门测试，确保稳定可靠",
-        image: "https://pic1.imgdb.cn/item/67a0a04dd0e0a243d4f9b99c.png",
+        image: "https://s1.locimg.com/2025/02/11/525182509a350.jpg",
       },
       {
         title: "极限环境测�������",
         description: "-20°C到50°C的极限环境测试，适应各种天气",
-        image: "https://pic1.imgdb.cn/item/67a0a04dd0e0a243d4f9b99c.png",
+        image: "https://s1.locimg.com/2025/02/11/c1ee974a5c408.jpg",
       },
     ],
   },
