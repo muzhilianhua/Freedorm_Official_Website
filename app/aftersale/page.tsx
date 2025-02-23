@@ -82,11 +82,7 @@ export default function AfterSalePage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-3">•</span>
-                  15天内出现质量问题，我们提供免费更换服务
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-3">•</span>
-                  1年内硬件故障，提供免费维修服务
+                  7天内出现质量问题，我们提供免费更换服务
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-3">•</span>

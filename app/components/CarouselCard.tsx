@@ -29,7 +29,7 @@ export default function CarouselCard({ items, className = "" }: CarouselCardProp
 
   return (
     <div className={`card p-6 flex flex-col items-center relative ${className}`}>
-      <div className="relative w-full aspect-video">
+      <div className="relative w-full">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentIndex}
@@ -37,13 +37,15 @@ export default function CarouselCard({ items, className = "" }: CarouselCardProp
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -100 }}
             transition={{ duration: 0.3 }}
-            className="absolute inset-0"
+            className="w-full"
           >
             <Image
               src={items[currentIndex].image || "/placeholder.svg"}
               alt={items[currentIndex].title}
-              fill
-              className="rounded-lg object-cover"
+              layout="responsive"
+              width={1000}
+              height={600}
+              className="rounded-lg object-contain"
             />
           </motion.div>
         </AnimatePresence>
@@ -74,9 +76,8 @@ export default function CarouselCard({ items, className = "" }: CarouselCardProp
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
-            className={`w-2 h-2 rounded-full transition-colors ${
-              index === currentIndex ? "bg-primary" : "bg-gray-300"
-            }`}
+            className={`w-2 h-2 rounded-full transition-colors ${index === currentIndex ? "bg-primary" : "bg-gray-300"
+              }`}
             aria-label={`Go to slide ${index + 1}`}
           />
         ))}
