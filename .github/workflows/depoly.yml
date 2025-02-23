@@ -27,7 +27,7 @@ jobs:
       run: npm ci
 
     - name: Build project
-      run: npm run build && npm run export  # 根据你的 package.json 配置调整
+      run: npm run build
 
     - name: Deploy to Server
       uses: appleboy/scp-action@v0.1.6
